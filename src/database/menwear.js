@@ -1,0 +1,1 @@
+export const menwear=["/MenWear/1.jpg","/MenWear/2.jpg","/MenWear/3.jpg","/MenWear/4.jpg","/MenWear/5.jpg","/MenWear/6.jpg","/MenWear/7.jpg","/MenWear/8.jpg","/MenWear/9.jpg","/MenWear/10.jpg","/MenWear/11.jpg","/MenWear/12.jpg"]

@@ -1,0 +1,96 @@
+.imageSize {
+    width: 100%;
+    border-radius: 14px;
+    padding-bottom: 10px;
+}
+.sizeRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.size {
+    flex: 0 0 auto;
+    margin-right: 5px; /* Adjust spacing between items */
+    margin-bottom: 5px; /* Adjust spacing between rows */
+}
+
+.imageCard {
+    width: 289px;
+    border-radius: 20px;
+}
+
+.valuePrices {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.offerIcon {
+    font-size: 30px;
+    /* color: indigo */
+}
+
+.buyrupee {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.addCard {
+    font-size: 13px;
+    text-align: left;
+}
+
+.spanNumber {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.documentDes {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+}
+
+.sizeGuide {
+    font-size: 12px;
+    font-weight: 600;
+    color: palevioletred
+}
+
+.badge {
+    margin: 2px;
+}
+
+@media (max-width: 767px) {
+    .valuePrices {
+        font-size: 16px;
+        color: orange;
+    }
+
+    .imageCard {
+        width: 100%;
+        border-radius: 23px;
+        margin-bottom: 7px;
+    }
+
+    .mobileCard {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+        margin: 8px;
+    }
+
+    .offecarmin {
+        margin-top: 5px;
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .border-info{
+        margin-bottom: 5px;
+
+    }
+}
+
+/* .{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+} */
